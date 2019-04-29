@@ -1,7 +1,7 @@
 __author__ = 'spark'
 
 
-import Queue
+import queue
 
 
 class Node(object):
@@ -12,7 +12,7 @@ class Node(object):
 
 
 def lot(head):
-    q = Queue.Queue()
+    q = queue.Queue()
     q.put(head)
     current_level = 1
     next_level = 0
@@ -30,7 +30,7 @@ def lot(head):
         if current_level == 0:
             current_level = next_level
             next_level = 0
-            print line
+            print(line)
             line = ''
 
 
