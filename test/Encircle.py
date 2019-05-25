@@ -31,7 +31,7 @@ def doesCircleExist(commands):
                 d = (d-1) if d > 0 else 3
             elif c == 'R':
                 d = (d+1) if d <3 else 0
-            else :
+            else:
                 if d == N:
                     y+=1
                 elif d == E:
@@ -42,9 +42,8 @@ def doesCircleExist(commands):
                     x-=1
         if x == 0 and y == 0:
             result.append('YES')
-        else
+        else:
             result.append('NO')
-        print(result)
     return result
 
 
