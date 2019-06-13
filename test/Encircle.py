@@ -17,6 +17,9 @@ E = 1
 S = 2
 W = 3
 
+#     N 0
+# W 3  +  E 1
+#     S 2
 
 def doesCircleExist(commands):
     # Write your code here
